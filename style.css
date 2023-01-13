@@ -1,0 +1,40 @@
+@import url("fonts/fonts.css");
+
+/* Font Segmentation */
+:root {
+  --PR: "Poppins-Regular";
+  --PS: "Poppins-ExtraThin";
+  --PB: "Poppins-Bold";
+  --RR: "Roboto-Regular";
+}
+
+body {
+  font-family: var(--PB);
+}
+
+/* Header Section ==> */
+
+.header {
+  background-color: #f0fff0;
+  height: 576px;
+}
+.logo img {
+  width: 25%;
+}
+.signin {
+  padding: 5px 25px;
+  border-radius: 25px;
+  margin-left: 15px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--RR);
+}
+.navbar-nav li {
+  margin: 0 16px;
+}
+
+.navbar-nav li a {
+  font-size: 16px;
+  line-height: 24px;
+  color: black !important;
+}
